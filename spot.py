@@ -20,7 +20,7 @@ def on_open(ws):
 
     # Формирование подписки
     subscription_msg = {
-        "method": "sub.ticker",
+        "method": "sub.depth",
         "param": {
             "symbol": "BTC_USDT"
         }
